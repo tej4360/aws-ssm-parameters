@@ -6,4 +6,4 @@ parameters = [
   { name= "${var.env}.frontend.payment_url", value= "http://payment-${var.env}.rtdevopspract.online:8080/" }
 ]
 
-env=dev
+env=prod
