@@ -11,6 +11,6 @@ parameters = [
 ]
 
 passwords = [
-  { Name = "dev.mysql_pass", value= "Roboshop@1" },
-  { Name = "dev.rabitmq_pass", value= "Roboshop01" }
+  { name = "dev.mysql_pass", value= "Roboshop@1" },
+  { name = "dev.rabitmq_pass", value= "Roboshop01" }
 ]
