@@ -1,7 +1,7 @@
 resource "aws_ssm_parameter" "parameters" {
+  description = "frontend parameters"
   count       = length(var.parameters)
   name        = var.parameters[count.index].name
-  description = "frontend parameters"
   value       = var.parameters[count.index].value
 }
 
