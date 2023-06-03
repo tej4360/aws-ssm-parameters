@@ -5,7 +5,7 @@ resource "aws_ssm_parameter" "parameters" {
   value       = var.parameters[count.index].value
 }
 
-resource "aws_ssm_parameter" "parameters" {
+resource "aws_ssm_parameter" "passwords" {
   count       = length(var.passwords)
   name        = var.passwords[count.index].name
   description = "db passwords"
