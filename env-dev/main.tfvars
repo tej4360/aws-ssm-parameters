@@ -7,7 +7,6 @@ parameters = [
   { name= "dev.mongo_url", value= "mongodb-dev.rtdevopspract.online" },
   { name= "dev.redis.url", value= "redis-dev.rtdevopspract.online" },
   { name= "dev.mysql.url", value= "mysql-dev.rtdevopspract.online" }
- }
 
 ]
 
