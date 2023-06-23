@@ -6,6 +6,7 @@ parameters = [
   { name= "dev.payment_url", value= "http://payment-dev.rtdevopspract.online:8080/" },
   { name= "dev.mongo_url", value= "mongodb-dev.rtdevopspract.online" },
   { name= "dev.redis_url", value= "redis-dev.rtdevopspract.online" },
+  { name= "dev.rabitmq_url", value= "rabitmq-dev.rtdevopspract.online" },
   { name= "dev.mysql_url", value= "mysql-dev.rtdevopspract.online" }
 
 ]
