@@ -4,6 +4,7 @@ resource "aws_ssm_parameter" "parameters" {
   type        = "String"
   name        = var.parameters[count.index].name
   value       = var.parameters[count.index].value
+  overwrite = true
 }
 
 resource "aws_ssm_parameter" "passwords" {
