@@ -14,4 +14,5 @@ resource "aws_ssm_parameter" "passwords" {
   type        = "SecureString"
   value       = var.passwords[count.index].value
   key_id      = "b051b135-92e8-49ff-a98f-5f141dbc8087"
+  overwrite = true
 }
