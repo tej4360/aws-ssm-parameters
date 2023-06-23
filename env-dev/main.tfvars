@@ -5,8 +5,8 @@ parameters = [
   { name= "dev.shipping_url", value= "http://shipping-dev.rtdevopspract.online:8080/" },
   { name= "dev.payment_url", value= "http://payment-dev.rtdevopspract.online:8080/" },
   { name= "dev.mongo_url", value= "mongodb-dev.rtdevopspract.online" },
-  { name= "dev.redis.url", value= "redis-dev.rtdevopspract.online" },
-  { name= "dev.mysql.url", value= "mysql-dev.rtdevopspract.online" }
+  { name= "dev.redis_url", value= "redis-dev.rtdevopspract.online" },
+  { name= "dev.mysql_url", value= "mysql-dev.rtdevopspract.online" }
 
 ]
 
