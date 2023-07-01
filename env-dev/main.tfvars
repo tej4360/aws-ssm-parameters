@@ -7,6 +7,7 @@ parameters = [
   { name= "dev.payment.cart_url", value= "cart-dev.rtdevopspract.online" },
   { name= "dev.payment.cart_port", value= "8080" },
   { name= "dev.payment.user_url", value= "user-dev.rtdevopspract.online" },
+  { name= "dev.payment.user_port", value= "8080" },
   { name= "dev.payment.rabitmq_url", value= "rabitmq-dev.rtdevopspract.online" },
   { name= "dev.shipping.cart_url", value= "cart-dev.rtdevopspract.online" },
   { name= "dev.shipping.cart_port", value= "8080" },
