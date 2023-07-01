@@ -1,5 +1,5 @@
 parameters = [
-  { name= "dev.frontend.catalogue._url", value= "https://catalogue-dev.rtdevopspract.online:8080" },
+  { name= "dev.frontend.catalogue_url", value= "https://catalogue-dev.rtdevopspract.online:8080" },
   { name= "dev.frontend.user_url", value= "https://user-dev.rtdevopspract.online:8080" },
   { name= "dev.frontend.shipping_url", value= "https://shipping-dev.rtdevopspract.online:8080" },
   { name= "dev.frontend.payment_url", value= "https://payment-dev.rtdevopspract.online:8080" },
