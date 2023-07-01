@@ -1,4 +1,9 @@
 parameters = [
+  { name= "dev.frontend.catalogue._url", value= "https://catalogue-dev.rtdevopspract.online:8080" },
+  { name= "dev.frontend.user_url", value= "https://user-dev.rtdevopspract.online:8080" },
+  { name= "dev.frontend.shipping_url", value= "https://shipping-dev.rtdevopspract.online:8080" },
+  { name= "dev.frontend.payment_url", value= "https://payment-dev.rtdevopspract.online:8080" },
+  { name= "dev.frontend.cart_url", value= "https://cart-dev.rtdevopspract.online:8080" },
   { name= "dev.catalogue.mongo_url", value= "mongodb-dev.rtdevopspract.online" },
   { name= "dev.catalogue.mongo_port", value= "27017" },
   { name= "dev.cart.redis_url", value= "redis-dev.rtdevopspract.online" },
