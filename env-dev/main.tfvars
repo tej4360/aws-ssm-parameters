@@ -5,7 +5,7 @@ parameters = [
   { name= "dev.frontend.payment_url", value= "http://payment-dev.rtdevopspract.online:8080" },
   { name= "dev.frontend.cart_url", value= "http://cart-dev.rtdevopspract.online:8080" },
   { name= "dev.catalogue.mongo_url", value= "mongodb-dev.rtdevopspract.online" },
-  { name= "dev.catalogue.mongo._port", value= "27017" },
+  { name= "dev.catalogue.mongo_port", value= "27017" },
   { name= "dev.cart.redis_url", value= "redis-dev.rtdevopspract.online" },
   { name= "dev.cart.catalogue_url", value= "catalogue-dev.rtdevopspract.online" },
   { name= "dev.cart.catalogue_port", value= "8080" },
@@ -18,7 +18,7 @@ parameters = [
   { name= "dev.shipping.cart_port", value= "8080" },
   { name= "dev.shipping.mysql_url", value= "mysql-dev.rtdevopspract.online" },
   { name= "dev.user.redis_url", value= "redis-dev.rtdevopspract.online" },
-  { name= "dev.user.mongo_url", value= "mongo-dev.rtdevopspract.online" },
+  { name= "dev.user.mongo_url", value= "mongodb-dev.rtdevopspract.online" },
   { name= "dev.user.mongo_port", value= "27017" }
 #   { name= "dev.catalogue_url", value= "http://catalogue-dev.rtdevopspract.online" },
 #   { name= "dev.cart_url", value= "http://cart-dev.rtdevopspract.online" },
